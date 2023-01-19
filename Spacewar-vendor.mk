@@ -551,111 +551,22 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/nothing/Spacewar/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/nothing/Spacewar/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_bu52053nvx_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_default_sensors.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_dynamic_sensors.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_idp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_idp_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_idp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_idp_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_idp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_idp_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_irq.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_lps22hh_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_power_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_qrd_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_qrd_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_qrd_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_qrd_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_vertigo_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_vertigo_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/cedros_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cedros_vertigo_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_bu52053nvx_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_default_sensors.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_dynamic_sensors.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_idp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_idp_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_idp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_idp_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_idp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_idp_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_irq.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_lps22hh_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_power_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_qrd_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_vertigo_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_vertigo_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/faroe_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/faroe_vertigo_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_bu52053nvx_0.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_default_sensors.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_dynamic_sensors.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_idp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_idp_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_idp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_idp_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_idp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_idp_lsm6dst_1.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_irq.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_lps22hh_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_lsm6dst_1.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_power_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_ak991x_1.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_aw96105_0_sar_register_a.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_aw96105_0_sar_register_a.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_aw96105_0_sar_register_b.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_aw96105_0_sar_register_b.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_aw96105_0_sar_register_c.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_aw96105_0_sar_register_c.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_aw9610x.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_aw9610x.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_aw9610x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_aw9610x_0.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_icm4x6xx_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_lsm6dso_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_lsm6dst_0.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_mmc56x3x_0.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_stk3a6x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_stk3a6x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_qrd_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_vertigo_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_vertigo_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_vertigo_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_bu52053nvx_0.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_default_sensors.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_dynamic_sensors.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hdk_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hdk_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hdk_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hdk_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hdk_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hdk_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hdk_tmd2725_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hhg_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hhg_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hhg_sx9302x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_sx9302x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_hhg_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_hhg_tmd3702_0.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_irq.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lps22hh_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_lsm6dst_1.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_mtp_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_mtp_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_mtp_lsm6dst_1.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_power_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_qrd_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_qrd_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_qrd_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_qrd_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_shtw2_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_sx932x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_tmd3702_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_v2_fcal_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_v2_fcal_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_vertigo_ak991x_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_vertigo_lsm6dst_0.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/lahaina_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lahaina_vertigo_lsm6dst_1.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
