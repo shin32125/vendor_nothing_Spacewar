@@ -17,9 +17,7 @@ INSERT INTO qcril_emergency_source_mcc_table VALUES('222','911','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('222','999','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('222','08','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('222','118','','');
-/* ABR-7875 begin 
 INSERT INTO qcril_emergency_source_mcc_table VALUES('222','119','','');
-ABR-7875 end */
 INSERT INTO qcril_emergency_source_mcc_table VALUES('226','112','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('226','911','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('230','112','','');
