@@ -172,6 +172,12 @@ dex_import {
 }
 
 dex_import {
+	name: "androidx.camera.extensions.impl.advanced",
+	owner: "nothing",
+	jars: ["proprietary/system/framework/androidx.camera.extensions.impl.advanced.jar"],
+}
+
+dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "nothing",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
