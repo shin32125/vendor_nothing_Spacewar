@@ -1062,50 +1062,9 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.abra_qtech_p24c64f_imx471_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.abra_qtech_p24c64f_imx471_eeprom.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.abra_truly_p24c64f_imx471_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.abra_truly_p24c64f_imx471_eeprom.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.gt24p128c2csli_imx766.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.irs2381c_polar.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.flash.lm3644.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.flash.lm3644.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.abra_qtech_imx471_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.abra_qtech_imx471_front.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.abra_qtech_imx766_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.abra_qtech_imx766_wide.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.abra_qtech_s5kjn1_uw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.abra_qtech_s5kjn1_uw.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx318.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx334.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx362.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx376.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx386.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx386.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx476.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx476.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx481.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx519.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx563.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx563.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx576.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx577.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx577.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.imx766.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx766.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_6dof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_6dof.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_eyetrack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_eyetrack.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov6211.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov6211.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov9282.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov9282.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov12a10.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov12a10_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov12a10_front.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13855.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13880.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov6211_master.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov6211_master.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov6211_slave.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov6211_slave.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov7251.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856_master.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856_master.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856_slave.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856_slave.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov9282_master.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov9282_master.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.ov9282_slave.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov9282_slave.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2l7.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2x5sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2x5sp.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k33dxx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k33dxx.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3p9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3p9.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k4h7.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k5e9yu05.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k5e9yu05.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5k5e9yx04.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k5e9yx04.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensor.s5kjd1sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5kjd1sp.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensormodule.abra_qtech_imx471_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.abra_qtech_imx471_front.bin \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensormodule.abra_qtech_imx766_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.abra_qtech_imx766_wide.bin \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.sensormodule.abra_qtech_s5kjn1_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.abra_qtech_s5kjn1_uw.bin \
