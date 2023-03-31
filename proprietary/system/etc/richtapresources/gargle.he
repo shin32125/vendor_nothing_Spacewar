@@ -1,0 +1,69 @@
+{
+    "Metadata": {
+        "Version": 2,
+        "Created": "2022-12-20",
+        "Description": "Exported from RichTap Creator Pro"
+    },
+    "PatternList": [
+        {
+            "AbsoluteTime": 182,
+            "Pattern": [
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 0,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 72,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 105,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 206,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 280,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 55
+                        },
+                        "Index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
