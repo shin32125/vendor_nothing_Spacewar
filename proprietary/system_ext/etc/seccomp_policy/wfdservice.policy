@@ -1,4 +1,4 @@
-# Copyright (c) 2020-2022 Qualcomm Technologies, Inc.
+# Copyright (c) 2020-2021 Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc
 #
@@ -76,8 +76,3 @@ getdents64: 1
 dup: 1
 lseek: 1
 tgkill: 1
-eventfd2: 1
-epoll_create1: 1
-epoll_ctl: 1
-recvfrom: 1
-epoll_pwait: 1
