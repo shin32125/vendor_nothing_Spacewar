@@ -27,6 +27,17 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "DiracAudioControlService",
+	owner: "nothing",
+	apk: "proprietary/system/priv-app/DiracAudioControlService/DiracAudioControlService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "nothing",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -63,17 +74,6 @@ android_app_import {
 	name: "TimeService",
 	owner: "nothing",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "pasrservice",
-	owner: "nothing",
-	apk: "proprietary/vendor/app/pasrservice/pasrservice.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -128,42 +128,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PerformanceMode",
-	owner: "nothing",
-	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "PowerSaveMode",
-	owner: "nothing",
-	apk: "proprietary/system_ext/app/PowerSaveMode/PowerSaveMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "nothing",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "workloadclassifier",
-	owner: "nothing",
-	apk: "proprietary/system_ext/app/workloadclassifier/workloadclassifier.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -226,27 +193,22 @@ dex_import {
 }
 
 dex_import {
-	name: "QPerformance",
-	owner: "nothing",
-	jars: ["proprietary/system/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "QXPerformance",
-	owner: "nothing",
-	jars: ["proprietary/system/framework/QXPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "nothing",
-	jars: ["proprietary/system/framework/UxPerformance.jar"],
-}
-
-dex_import {
 	name: "androidx.camera.extensions.impl.advanced",
 	owner: "nothing",
 	jars: ["proprietary/system/framework/androidx.camera.extensions.impl.advanced.jar"],
+}
+
+dex_import {
+	name: "tcmclient",
+	owner: "nothing",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "nothing",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
@@ -328,6 +290,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "vendor.qti.diag.hal.service",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.gnss@4.0-service",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
@@ -337,9 +308,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.servicetracker@1.2-service",
+	name: "vendor.qti.hardware.limits@1.0-service",
 	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
