@@ -69,17 +69,17 @@ ________________________________________________________________________________
                 <Prop Name="ro.lmk.nstrat_psi_complete_ms" Value="70" />
                 <Prop Name="ro.lmk.psi_scrit_complete_stall_ms" Value="75" />
                 <Prop Name="ro.lmk.nstrat_wmark_boost_factor" Value="4" />
-                <Prop Name="ro.lmk.cache_percent" Value="10" />
                 <Prop Name="vendor.perf.gestureflingboost.enable" Value="true" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="96" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="60" Target="shima" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="60" Target="yupik" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.perf.performancemode.support" Value="true" Target="lahaina" />
+                <Prop Name="vendor.perf.performancemode.support" Value="true" Target="yupik" />
                 <Prop Name="ro.lmk.enable_preferred_apps" Value="true" />
                 <Prop Name="vendor.appcompact.enable_app_compact" Value="true" />
                 <Prop Name="vendor.appcompact.full_compact_type" Value="2" />
-                <Prop Name="vendor.appcompact.some_compact_type" Value="4" />
+                <Prop Name="vendor.appcompact.some_compact_type" Value="2" />
                 <Prop Name="vendor.appcompact.compact_throttle_somesome" Value="5000" />
                 <Prop Name="vendor.appcompact.compact_throttle_somefull" Value="10000" />
                 <Prop Name="vendor.appcompact.compact_throttle_fullsome" Value="500" />
