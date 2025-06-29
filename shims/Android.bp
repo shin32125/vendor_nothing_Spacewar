@@ -1,0 +1,20 @@
+cc_library_shared {
+    name: "libsurfacecomposerclient_shim",
+    srcs: ["surfacecomposerclient_shim.cpp"],
+    shared_libs: [
+            "libgui",
+            "libbinder",
+            "libutils",
+            "liblog",
+        ],
+    cflags: ["-Wno-unused-parameter"],
+    system_ext_specific: true,
+}
+
+cc_library_shared {
+    name: "libaudio_shim",
+    srcs: ["audio_shim.cpp"],
+    shared_libs: ["liblog"],
+    cflags: ["-Wno-unused-parameter"],
+    system_ext_specific: true,
+}
