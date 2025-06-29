@@ -1237,6 +1237,8 @@ PRODUCT_PACKAGES += \
     libwfdnative \
     libwfdrtsp \
     libwfdservice \
+    libsurfacecomposerclient_shim \
+    libaudio_shim \
     libwfdsinksm \
     libwfduibcinterface \
     libwfduibcsink \
